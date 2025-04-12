@@ -1,0 +1,39 @@
+{
+            "appName": "Rahhal",
+            "welcomeMessage": "New to Rahhal? Enjoy up to 25% off on your first ride-hailing trips!",
+            "welcomeImageName": "system:star.fill",
+            "accentColorHex": "#000000",
+            "authFlows": [
+                {
+                    "type": "phoneNumber",
+                    "verificationMethods": ["sms", "whatsapp"],
+                    "isEnabled": true
+                },
+                {
+                    "type": "email",
+                    "verificationMethods": ["otp", "magicLink"],
+                    "isEnabled": true
+                },
+                {
+                    "type": "social",
+                    "socialProvider": "apple",
+                    "isEnabled": true
+                },
+                {
+                    "type": "social",
+                    "socialProvider": "google",
+                    "isEnabled": true
+                }
+            ],
+            "otpLength": 6,
+            "showConsentMessage": true,
+            "authProviderType": "supabase",
+            "authProviderConfig": {
+                "url": "https://hqgevooyrkpxhkejemld.supabase.co",
+                "key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhxZ2V2b295cmtweGhrZWplbWxkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE3MzcwNjgsImV4cCI6MjA1NzMxMzA2OH0.L0jmWsqUMAfEEsQlsyxN1H75gsEdnZ_lSbVknC_kgOs"
+            },
+            "socialProviderConfig": {
+                "googleClientId": "1025030279865-334eimn01lk8dfo7a5t4ihjr8jcbb243.apps.googleusercontent.com",
+                "appleClientId": "net.alhaider.Rahhal"
+            }
+        }
