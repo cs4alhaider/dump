@@ -8,7 +8,7 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[5][0-9]{8}$",
+                "local_pattern": "^0?[5][0-9]{8}$",
                 "international_pattern": "^\\+966[5][0-9]{8}$"
             },
             "examples": {
@@ -1454,14 +1454,14 @@
         "name_ar": "\u0645\u0635\u0631",
         "phone": {
             "dial_code": "+20",
-            "digit_count": 10,
+            "digit_count": 9,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^0[1][0-9]{9}$",
+                "local_pattern": "^[0-9]{10}$",
                 "international_pattern": "^\\+20[1][0-9]{9}$"
             },
             "examples": {
-                "local": "0101234567",
+                "local": "1101234567",
                 "international": "+201012345678"
             }
         },
@@ -5229,7 +5229,7 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[5][0-9]{8}$",
+                "local_pattern": "^0?[5][0-9]{8}$",
                 "international_pattern": "^\\+971[5][0-9]{8}$"
             },
             "examples": {
