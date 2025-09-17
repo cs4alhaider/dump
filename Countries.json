@@ -1455,7 +1455,7 @@
         "phone": {
             "dial_code": "+20",
             "digit_count": 10,
-            "trunk_prefix": "0",
+            "trunk_prefix": null,
             "validation": {
                 "local_pattern": "^0[1][0-9]{9}$",
                 "international_pattern": "^\\+20[1][0-9]{9}$"
