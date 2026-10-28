@@ -31,8 +31,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[7][0-9]{7}$",
-                "international_pattern": "^\\+93[7][0-9]{7}$"
+                "local_pattern": "^0[7][0-9]{8}$",
+                "international_pattern": "^\\+93[7][0-9]{8}$"
             },
             "examples": {
                 "local": "0701234567",
@@ -54,8 +54,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[4-9][0-9]{7}$",
-                "international_pattern": "^\\+358[4-9][0-9]{7}$"
+                "local_pattern": "^0[4-9][0-9]{5,9}$",
+                "international_pattern": "^\\+358[4-9][0-9]{5,9}$"
             },
             "examples": {
                 "local": "0401234567",
@@ -77,12 +77,12 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[6-9][0-9]{7}$",
-                "international_pattern": "^\\+355[6-9][0-9]{7}$"
+                "local_pattern": "^0[6-9][0-9]{8}$",
+                "international_pattern": "^\\+355[6-9][0-9]{8}$"
             },
             "examples": {
-                "local": "0681234567",
-                "international": "+355681234567"
+                "local": "0672123456",
+                "international": "+355672123456"
             }
         },
         "meta": {
@@ -116,7 +116,7 @@
     },
     {
         "code": "AS",
-        "name": "AmericanSamoa",
+        "name": "American Samoa",
         "name_ar": "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629",
         "phone": {
             "dial_code": "+1684",
@@ -258,15 +258,15 @@
         "name_ar": "\u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646",
         "phone": {
             "dial_code": "+54",
-            "digit_count": 10,
+            "digit_count": 11,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1-9][0-9]{8}$",
-                "international_pattern": "^\\+54[1-9][0-9]{8}$"
+                "local_pattern": "^0[9][1-9][0-9]{9}$",
+                "international_pattern": "^\\+54[9][1-9][0-9]{9}$"
             },
             "examples": {
-                "local": "0111234567",
-                "international": "+541112345678"
+                "local": "091123456789",
+                "international": "+5491123456789"
             }
         },
         "meta": {
@@ -284,8 +284,8 @@
             "digit_count": 8,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1-9][0-9]{6}$",
-                "international_pattern": "^\\+374[1-9][0-9]{6}$"
+                "local_pattern": "^0[1-9][0-9]{7}$",
+                "international_pattern": "^\\+374[1-9][0-9]{7}$"
             },
             "examples": {
                 "local": "077123456",
@@ -353,12 +353,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1-7][0-9]{8}$",
-                "international_pattern": "^\\+43[1-7][0-9]{8}$"
+                "local_pattern": "^0[1-7][0-9]{6,12}$",
+                "international_pattern": "^\\+43[1-7][0-9]{6,12}$"
             },
             "examples": {
-                "local": "0612345678",
-                "international": "+43612345678"
+                "local": "06641234567",
+                "international": "+436641234567"
             }
         },
         "meta": {
@@ -489,13 +489,13 @@
         "phone": {
             "dial_code": "+375",
             "digit_count": 9,
-            "trunk_prefix": "8",
+            "trunk_prefix": "80",
             "validation": {
-                "local_pattern": "^8[0][1-9][0-9]{7}$",
+                "local_pattern": "^80[1-9][0-9]{8}$",
                 "international_pattern": "^\\+375[1-9][0-9]{8}$"
             },
             "examples": {
-                "local": "8029123456",
+                "local": "80291234567",
                 "international": "+375291234567"
             }
         },
@@ -514,8 +514,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1-9][0-9]{7}$",
-                "international_pattern": "^\\+32[1-9][0-9]{7}$"
+                "local_pattern": "^0[1-9][0-9]{8}$",
+                "international_pattern": "^\\+32[1-9][0-9]{8}$"
             },
             "examples": {
                 "local": "0470123456",
@@ -557,15 +557,15 @@
         "name_ar": "\u0628\u0646\u064a\u0646",
         "phone": {
             "dial_code": "+229",
-            "digit_count": 8,
+            "digit_count": 10,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2-9][0-9]{7}$",
-                "international_pattern": "^\\+229[2-9][0-9]{7}$"
+                "local_pattern": "^01[2-9][0-9]{7}$",
+                "international_pattern": "^\\+22901[2-9][0-9]{7}$"
             },
             "examples": {
-                "local": "90123456",
-                "international": "+22990123456"
+                "local": "0190123456",
+                "international": "+2290190123456"
             }
         },
         "meta": {
@@ -698,8 +698,8 @@
             "digit_count": 11,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1-9][1-9][0-9]{8}$",
-                "international_pattern": "^\\+55[1-9][1-9][0-9]{8}$"
+                "local_pattern": "^0?[1-9][1-9][0-9]{8,9}$",
+                "international_pattern": "^\\+55[1-9][1-9][0-9]{8,9}$"
             },
             "examples": {
                 "local": "011912345678",
@@ -767,11 +767,11 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[89][0-9]{7}$",
-                "international_pattern": "^\\+359[89][0-9]{7}$"
+                "local_pattern": "^0[89][0-9]{8}$",
+                "international_pattern": "^\\+359[89][0-9]{8}$"
             },
             "examples": {
-                "local": "087123456",
+                "local": "0871234567",
                 "international": "+359871234567"
             }
         },
@@ -833,11 +833,11 @@
         "name_ar": "\u0643\u0645\u0628\u0648\u062f\u064a\u0627",
         "phone": {
             "dial_code": "+855",
-            "digit_count": 9,
+            "digit_count": 8,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1-9][0-9]{7}$",
-                "international_pattern": "^\\+855[1-9][0-9]{7}$"
+                "local_pattern": "^0[1-9][0-9]{7,8}$",
+                "international_pattern": "^\\+855[1-9][0-9]{7,8}$"
             },
             "examples": {
                 "local": "091234567",
@@ -859,8 +859,8 @@
             "digit_count": 9,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2368][0-9]{7}$",
-                "international_pattern": "^\\+237[2368][0-9]{7}$"
+                "local_pattern": "^[2368][0-9]{8}$",
+                "international_pattern": "^\\+237[2368][0-9]{8}$"
             },
             "examples": {
                 "local": "671234567",
@@ -917,6 +917,29 @@
             "flag_emoji": "\ud83c\udde8\ud83c\uddfb",
             "region": "Africa",
             "region_ar": "\u0623\u0641\u0631\u064a\u0642\u064a\u0627"
+        }
+    },
+    {
+        "code": "BQ",
+        "name": "Caribbean Netherlands",
+        "name_ar": "\u0647\u0648\u0644\u0646\u062f\u0627 \u0627\u0644\u0643\u0627\u0631\u064a\u0628\u064a\u0629",
+        "phone": {
+            "dial_code": "+599",
+            "digit_count": 7,
+            "trunk_prefix": null,
+            "validation": {
+                "local_pattern": "^[347][0-9]{6}$",
+                "international_pattern": "^\\+599[347][0-9]{6}$"
+            },
+            "examples": {
+                "local": "3181234",
+                "international": "+5993181234"
+            }
+        },
+        "meta": {
+            "flag_emoji": "\ud83c\udde7\ud83c\uddf6",
+            "region": "Caribbean",
+            "region_ar": "\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0643\u0627\u0631\u064a\u0628\u064a"
         }
     },
     {
@@ -1020,11 +1043,11 @@
             "digit_count": 11,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1][0-9]{10}$",
+                "local_pattern": "^0?[1][0-9]{10}$",
                 "international_pattern": "^\\+86[1][0-9]{10}$"
             },
             "examples": {
-                "local": "01312345678",
+                "local": "013123456789",
                 "international": "+8613123456789"
             }
         },
@@ -1250,11 +1273,11 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[9][1-9][0-9]{6}$",
-                "international_pattern": "^\\+385[9][1-9][0-9]{6}$"
+                "local_pattern": "^0[9][0-9]{7,8}$",
+                "international_pattern": "^\\+385[9][0-9]{7,8}$"
             },
             "examples": {
-                "local": "091234567",
+                "local": "0912345678",
                 "international": "+385912345678"
             }
         },
@@ -1283,6 +1306,29 @@
         },
         "meta": {
             "flag_emoji": "\ud83c\udde8\ud83c\uddfa",
+            "region": "Caribbean",
+            "region_ar": "\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0643\u0627\u0631\u064a\u0628\u064a"
+        }
+    },
+    {
+        "code": "CW",
+        "name": "Cura\u00e7ao",
+        "name_ar": "\u0643\u0648\u0631\u0627\u0633\u0627\u0648",
+        "phone": {
+            "dial_code": "+599",
+            "digit_count": 8,
+            "trunk_prefix": null,
+            "validation": {
+                "local_pattern": "^[9][0-9]{7}$",
+                "international_pattern": "^\\+599[9][0-9]{7}$"
+            },
+            "examples": {
+                "local": "95181234",
+                "international": "+59995181234"
+            }
+        },
+        "meta": {
+            "flag_emoji": "\ud83c\udde8\ud83c\uddfc",
             "region": "Caribbean",
             "region_ar": "\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0643\u0627\u0631\u064a\u0628\u064a"
         }
@@ -1407,15 +1453,15 @@
         "name": "Dominican Republic",
         "name_ar": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u062f\u0648\u0645\u064a\u0646\u064a\u0643\u0627\u0646",
         "phone": {
-            "dial_code": "+1849",
-            "digit_count": 7,
+            "dial_code": "+1",
+            "digit_count": 10,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2-9][0-9]{6}$",
-                "international_pattern": "^\\+1849[2-9][0-9]{6}$"
+                "local_pattern": "^8[024]9[2-9][0-9]{6}$",
+                "international_pattern": "^\\+18[024]9[2-9][0-9]{6}$"
             },
             "examples": {
-                "local": "8491234",
+                "local": "8498491234",
                 "international": "+18498491234"
             }
         },
@@ -1454,15 +1500,15 @@
         "name_ar": "\u0645\u0635\u0631",
         "phone": {
             "dial_code": "+20",
-            "digit_count": 9,
+            "digit_count": 10,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[0-9]{10}$",
+                "local_pattern": "^[1][0-9]{9}$",
                 "international_pattern": "^\\+20[1][0-9]{9}$"
             },
             "examples": {
                 "local": "1101234567",
-                "international": "+201012345678"
+                "international": "+201101234567"
             }
         },
         "meta": {
@@ -1526,11 +1572,11 @@
             "digit_count": 7,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[7][0-9]{6}$",
-                "international_pattern": "^\\+291[7][0-9]{6}$"
+                "local_pattern": "^0[17][0-9]{6}$",
+                "international_pattern": "^\\+291[17][0-9]{6}$"
             },
             "examples": {
-                "local": "0712345",
+                "local": "07123456",
                 "international": "+2917123456"
             }
         },
@@ -1664,8 +1710,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[4-5][0-9]{7}$",
-                "international_pattern": "^\\+358[4-5][0-9]{7}$"
+                "local_pattern": "^0[4-5][0-9]{5,9}$",
+                "international_pattern": "^\\+358[4-5][0-9]{5,9}$"
             },
             "examples": {
                 "local": "0401234567",
@@ -1754,10 +1800,10 @@
         "phone": {
             "dial_code": "+241",
             "digit_count": 8,
-            "trunk_prefix": "0",
+            "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^0[1-7][0-9]{7}$",
-                "international_pattern": "^\\+241[1-7][0-9]{7}$"
+                "local_pattern": "^[0-7][0-9]{6,7}$",
+                "international_pattern": "^\\+241[0-7][0-9]{6,7}$"
             },
             "examples": {
                 "local": "06123456",
@@ -1825,12 +1871,12 @@
             "digit_count": 11,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[15][0-9]{10}$",
-                "international_pattern": "^\\+49[15][0-9]{10}$"
+                "local_pattern": "^0[1][5-7][0-9]{8,9}$",
+                "international_pattern": "^\\+49[1][5-7][0-9]{8,9}$"
             },
             "examples": {
-                "local": "01512345678",
-                "international": "+491512345678"
+                "local": "015123456789",
+                "international": "+4915123456789"
             }
         },
         "meta": {
@@ -1894,8 +1940,8 @@
             "digit_count": 10,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[69][0-9]{8}$",
-                "international_pattern": "^\\+30[69][0-9]{8}$"
+                "local_pattern": "^[69][0-9]{9}$",
+                "international_pattern": "^\\+30[69][0-9]{9}$"
             },
             "examples": {
                 "local": "6912345678",
@@ -1963,8 +2009,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[6-9][0-9]{7}$",
-                "international_pattern": "^\\+590[6-9][0-9]{7}$"
+                "local_pattern": "^0[6-9][0-9]{8}$",
+                "international_pattern": "^\\+590[6-9][0-9]{8}$"
             },
             "examples": {
                 "local": "0690123456",
@@ -2032,12 +2078,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1481][0-9]{9}$",
-                "international_pattern": "^\\+44[1481][0-9]{9}$"
+                "local_pattern": "^07(?:781|839|911)[0-9]{6}$",
+                "international_pattern": "^\\+447(?:781|839|911)[0-9]{6}$"
             },
             "examples": {
-                "local": "01481123456",
-                "international": "+441481123456"
+                "local": "07781123456",
+                "international": "+447781123456"
             }
         },
         "meta": {
@@ -2075,15 +2121,15 @@
         "name_ar": "\u063a\u064a\u0646\u064a\u0627 \u0628\u064a\u0633\u0627\u0648",
         "phone": {
             "dial_code": "+245",
-            "digit_count": 7,
+            "digit_count": 9,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[5-9][0-9]{6}$",
-                "international_pattern": "^\\+245[5-9][0-9]{6}$"
+                "local_pattern": "^[9][0-9]{8}$",
+                "international_pattern": "^\\+245[9][0-9]{8}$"
             },
             "examples": {
-                "local": "5123456",
-                "international": "+2455123456"
+                "local": "955012345",
+                "international": "+245955012345"
             }
         },
         "meta": {
@@ -2097,16 +2143,16 @@
         "name": "Guyana",
         "name_ar": "\u063a\u064a\u0627\u0646\u0627",
         "phone": {
-            "dial_code": "+595",
+            "dial_code": "+592",
             "digit_count": 7,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[6][0-9]{6}$",
-                "international_pattern": "^\\+595[6][0-9]{6}$"
+                "local_pattern": "^[5-7][0-9]{6}$",
+                "international_pattern": "^\\+592[5-7][0-9]{6}$"
             },
             "examples": {
                 "local": "6123456",
-                "international": "+5956123456"
+                "international": "+5926123456"
             }
         },
         "meta": {
@@ -2143,16 +2189,16 @@
         "name": "Holy See (Vatican City State)",
         "name_ar": "\u0627\u0644\u0641\u0627\u062a\u064a\u0643\u0627\u0646",
         "phone": {
-            "dial_code": "+379",
+            "dial_code": "+39",
             "digit_count": 10,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[0][6][0-9]{8}$",
-                "international_pattern": "^\\+379[0][6][0-9]{8}$"
+                "local_pattern": "^[3][0-9]{8,9}$",
+                "international_pattern": "^\\+39[3][0-9]{8,9}$"
             },
             "examples": {
-                "local": "0612345678",
-                "international": "+3790612345678"
+                "local": "3123456789",
+                "international": "+393123456789"
             }
         },
         "meta": {
@@ -2216,12 +2262,12 @@
             "digit_count": 9,
             "trunk_prefix": "06",
             "validation": {
-                "local_pattern": "^06[2-3][0-9]{7}$",
-                "international_pattern": "^\\+36[2-3][0-9]{7}$"
+                "local_pattern": "^06[2357][0-9]{8}$",
+                "international_pattern": "^\\+36[2357][0-9]{8}$"
             },
             "examples": {
-                "local": "0620123456",
-                "international": "+3620123456"
+                "local": "06201234567",
+                "international": "+36201234567"
             }
         },
         "meta": {
@@ -2285,12 +2331,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[8][0-9]{9}$",
-                "international_pattern": "^\\+62[8][0-9]{9}$"
+                "local_pattern": "^0[8][0-9]{8,11}$",
+                "international_pattern": "^\\+62[8][0-9]{8,11}$"
             },
             "examples": {
-                "local": "0812345678",
-                "international": "+62812345678"
+                "local": "08123456789",
+                "international": "+628123456789"
             }
         },
         "meta": {
@@ -2312,8 +2358,8 @@
                 "international_pattern": "^\\+98[9][0-9]{9}$"
             },
             "examples": {
-                "local": "0912345678",
-                "international": "+98912345678"
+                "local": "09123456789",
+                "international": "+989123456789"
             }
         },
         "meta": {
@@ -2335,8 +2381,8 @@
                 "international_pattern": "^\\+964[7][0-9]{9}$"
             },
             "examples": {
-                "local": "0712345678",
-                "international": "+964712345678"
+                "local": "07912345678",
+                "international": "+9647912345678"
             }
         },
         "meta": {
@@ -2377,12 +2423,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1624][0-9]{9}$",
-                "international_pattern": "^\\+44[1624][0-9]{9}$"
+                "local_pattern": "^07(?:4576|[569]24[0-9])[0-9]{5}$",
+                "international_pattern": "^\\+447(?:4576|[569]24[0-9])[0-9]{5}$"
             },
             "examples": {
-                "local": "01624123456",
-                "international": "+441624123456"
+                "local": "07624123456",
+                "international": "+447624123456"
             }
         },
         "meta": {
@@ -2419,15 +2465,15 @@
         "name": "Jamaica",
         "name_ar": "\u062c\u0627\u0645\u0627\u064a\u0643\u0627",
         "phone": {
-            "dial_code": "+1876",
-            "digit_count": 7,
+            "dial_code": "+1",
+            "digit_count": 10,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2-9][0-9]{6}$",
-                "international_pattern": "^\\+1876[2-9][0-9]{6}$"
+                "local_pattern": "^(?:658|876)[2-9][0-9]{6}$",
+                "international_pattern": "^\\+1(?:658|876)[2-9][0-9]{6}$"
             },
             "examples": {
-                "local": "5123456",
+                "local": "8765123456",
                 "international": "+18765123456"
             }
         },
@@ -2446,12 +2492,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[7-9][0-9]{8}$",
-                "international_pattern": "^\\+81[7-9][0-9]{8}$"
+                "local_pattern": "^0[6-9][0-9]{9}$",
+                "international_pattern": "^\\+81[6-9][0-9]{9}$"
             },
             "examples": {
-                "local": "0901234567",
-                "international": "+81901234567"
+                "local": "09012345678",
+                "international": "+819012345678"
             }
         },
         "meta": {
@@ -2469,12 +2515,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1534][0-9]{9}$",
-                "international_pattern": "^\\+44[1534][0-9]{9}$"
+                "local_pattern": "^07(?:509|700|797|829|937)[0-9]{6}$",
+                "international_pattern": "^\\+447(?:509|700|797|829|937)[0-9]{6}$"
             },
             "examples": {
-                "local": "01534123456",
-                "international": "+441534123456"
+                "local": "07797712345",
+                "international": "+447797712345"
             }
         },
         "meta": {
@@ -2519,8 +2565,8 @@
                 "international_pattern": "^\\+7[7][0-9]{9}$"
             },
             "examples": {
-                "local": "8701234567",
-                "international": "+7701234567"
+                "local": "87012345678",
+                "international": "+77012345678"
             }
         },
         "meta": {
@@ -2558,15 +2604,15 @@
         "name_ar": "\u0643\u064a\u0631\u064a\u0628\u0627\u062a\u064a",
         "phone": {
             "dial_code": "+686",
-            "digit_count": 5,
+            "digit_count": 8,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2-9][0-9]{4}$",
-                "international_pattern": "^\\+686[2-9][0-9]{4}$"
+                "local_pattern": "^[67][0-9]{7}$",
+                "international_pattern": "^\\+686[67][0-9]{7}$"
             },
             "examples": {
-                "local": "71234",
-                "international": "+68671234"
+                "local": "72001234",
+                "international": "+68672001234"
             }
         },
         "meta": {
@@ -2588,8 +2634,8 @@
                 "international_pattern": "^\\+850[1][0-9]{9}$"
             },
             "examples": {
-                "local": "0192123456",
-                "international": "+850192123456"
+                "local": "01921234567",
+                "international": "+8501921234567"
             }
         },
         "meta": {
@@ -2607,11 +2653,11 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1][0-9]{9}$",
-                "international_pattern": "^\\+82[1][0-9]{9}$"
+                "local_pattern": "^0[1][0-9]{8,9}$",
+                "international_pattern": "^\\+82[1][0-9]{8,9}$"
             },
             "examples": {
-                "local": "0101234567",
+                "local": "01012345678",
                 "international": "+821012345678"
             }
         },
@@ -2676,12 +2722,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[2][0-9]{9}$",
-                "international_pattern": "^\\+856[2][0-9]{9}$"
+                "local_pattern": "^0[23][0-9]{8,9}$",
+                "international_pattern": "^\\+856[23][0-9]{8,9}$"
             },
             "examples": {
-                "local": "0201234567",
-                "international": "+8562012345678"
+                "local": "02023123456",
+                "international": "+8562023123456"
             }
         },
         "meta": {
@@ -2722,12 +2768,12 @@
             "digit_count": 8,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[3-9][0-9]{6}$",
-                "international_pattern": "^\\+961[3-9][0-9]{6}$"
+                "local_pattern": "^0?[3-9][0-9]{6,7}$",
+                "international_pattern": "^\\+961[3-9][0-9]{6,7}$"
             },
             "examples": {
-                "local": "03123456",
-                "international": "+96171234567"
+                "local": "071123456",
+                "international": "+96171123456"
             }
         },
         "meta": {
@@ -2765,15 +2811,15 @@
         "name_ar": "\u0644\u064a\u0628\u064a\u0631\u064a\u0627",
         "phone": {
             "dial_code": "+231",
-            "digit_count": 8,
+            "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[4-6][0-9]{7}$",
-                "international_pattern": "^\\+231[4-6][0-9]{7}$"
+                "local_pattern": "^0[2-578][0-9]{8}$",
+                "international_pattern": "^\\+231[2-578][0-9]{8}$"
             },
             "examples": {
-                "local": "04123456",
-                "international": "+23141234567"
+                "local": "0770123456",
+                "international": "+231770123456"
             }
         },
         "meta": {
@@ -2835,13 +2881,13 @@
         "phone": {
             "dial_code": "+370",
             "digit_count": 8,
-            "trunk_prefix": "8",
+            "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^8[6][0-9]{7}$",
+                "local_pattern": "^0[6][0-9]{7}$",
                 "international_pattern": "^\\+370[6][0-9]{7}$"
             },
             "examples": {
-                "local": "86123456",
+                "local": "061234567",
                 "international": "+37061234567"
             }
         },
@@ -2952,8 +2998,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1-9][0-9]{7}$",
-                "international_pattern": "^\\+265[1-9][0-9]{7}$"
+                "local_pattern": "^0[1-9][0-9]{8}$",
+                "international_pattern": "^\\+265[1-9][0-9]{8}$"
             },
             "examples": {
                 "local": "0991234567",
@@ -2972,11 +3018,11 @@
         "name_ar": "\u0645\u0627\u0644\u064a\u0632\u064a\u0627",
         "phone": {
             "dial_code": "+60",
-            "digit_count": 10,
+            "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[1][0-9]{8}$",
-                "international_pattern": "^\\+60[1][0-9]{8}$"
+                "local_pattern": "^0[1][0-9]{8,9}$",
+                "international_pattern": "^\\+60[1][0-9]{8,9}$"
             },
             "examples": {
                 "local": "0123456789",
@@ -3180,14 +3226,14 @@
         "phone": {
             "dial_code": "+52",
             "digit_count": 10,
-            "trunk_prefix": "01",
+            "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^01[1-9][0-9]{8}$",
-                "international_pattern": "^\\+52[1-9][0-9]{8}$"
+                "local_pattern": "^[1-9][0-9]{9}$",
+                "international_pattern": "^\\+52[1-9][0-9]{9}$"
             },
             "examples": {
-                "local": "0155123456",
-                "international": "+5255123456"
+                "local": "5512345678",
+                "international": "+525512345678"
             }
         },
         "meta": {
@@ -3389,12 +3435,12 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[9][0-9]{9}$",
-                "international_pattern": "^\\+95[9][0-9]{9}$"
+                "local_pattern": "^0[9][0-9]{7,9}$",
+                "international_pattern": "^\\+95[9][0-9]{7,9}$"
             },
             "examples": {
-                "local": "0912345678",
-                "international": "+959123456789"
+                "local": "09791234567",
+                "international": "+959791234567"
             }
         },
         "meta": {
@@ -3458,11 +3504,11 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[9][0-9]{9}$",
+                "local_pattern": "^0?[9][0-9]{9}$",
                 "international_pattern": "^\\+977[9][0-9]{9}$"
             },
             "examples": {
-                "local": "0980123456",
+                "local": "09801234567",
                 "international": "+9779801234567"
             }
         },
@@ -3493,29 +3539,6 @@
             "flag_emoji": "\ud83c\uddf3\ud83c\uddf1",
             "region": "Europe",
             "region_ar": "\u0623\u0648\u0631\u0648\u0628\u0627"
-        }
-    },
-    {
-        "code": "AN",
-        "name": "Netherlands Antilles",
-        "name_ar": "\u062c\u0632\u0631 \u0627\u0644\u0623\u0646\u062a\u064a\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062f\u064a\u0629",
-        "phone": {
-            "dial_code": "+599",
-            "digit_count": 7,
-            "trunk_prefix": null,
-            "validation": {
-                "local_pattern": "^[9][0-9]{6}$",
-                "international_pattern": "^\\+599[9][0-9]{6}$"
-            },
-            "examples": {
-                "local": "9123456",
-                "international": "+5999123456"
-            }
-        },
-        "meta": {
-            "flag_emoji": "\ud83c\udde6\ud83c\uddf3",
-            "region": "Caribbean",
-            "region_ar": "\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0643\u0627\u0631\u064a\u0628\u064a"
         }
     },
     {
@@ -3550,8 +3573,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[2][0-9]{7}$",
-                "international_pattern": "^\\+64[2][0-9]{7}$"
+                "local_pattern": "^0[2][0-9]{7,9}$",
+                "international_pattern": "^\\+64[2][0-9]{7,9}$"
             },
             "examples": {
                 "local": "0211234567",
@@ -3761,7 +3784,7 @@
                 "international_pattern": "^\\+92[3][0-9]{9}$"
             },
             "examples": {
-                "local": "0301234567",
+                "local": "03012345678",
                 "international": "+923012345678"
             }
         },
@@ -3803,8 +3826,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[5][0-9]{7}$",
-                "international_pattern": "^\\+970[5][0-9]{7}$"
+                "local_pattern": "^0[5][0-9]{8}$",
+                "international_pattern": "^\\+970[5][0-9]{8}$"
             },
             "examples": {
                 "local": "0599123456",
@@ -3872,8 +3895,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[9][0-9]{7}$",
-                "international_pattern": "^\\+595[9][0-9]{7}$"
+                "local_pattern": "^0[9][0-9]{8}$",
+                "international_pattern": "^\\+595[9][0-9]{8}$"
             },
             "examples": {
                 "local": "0981234567",
@@ -3918,11 +3941,11 @@
             "digit_count": 10,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[9][0-9]{9}$",
-                "international_pattern": "^\\+63[9][0-9]{9}$"
+                "local_pattern": "^0[89][0-9]{9}$",
+                "international_pattern": "^\\+63[89][0-9]{9}$"
             },
             "examples": {
-                "local": "0912345678",
+                "local": "09123456789",
                 "international": "+639123456789"
             }
         },
@@ -3937,16 +3960,16 @@
         "name": "Pitcairn",
         "name_ar": "\u062c\u0632\u0631 \u0628\u064a\u062a\u0643\u064a\u0631\u0646",
         "phone": {
-            "dial_code": "+872",
-            "digit_count": 5,
-            "trunk_prefix": null,
+            "dial_code": "+64",
+            "digit_count": 9,
+            "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^[5][0-9]{4}$",
-                "international_pattern": "^\\+872[5][0-9]{4}$"
+                "local_pattern": "^0[2][0-9]{7,9}$",
+                "international_pattern": "^\\+64[2][0-9]{7,9}$"
             },
             "examples": {
-                "local": "51234",
-                "international": "+87251234"
+                "local": "0211234567",
+                "international": "+64211234567"
             }
         },
         "meta": {
@@ -4006,15 +4029,15 @@
         "name": "Puerto Rico",
         "name_ar": "\u0628\u0648\u0631\u062a\u0648\u0631\u064a\u0643\u0648",
         "phone": {
-            "dial_code": "+1939",
-            "digit_count": 7,
+            "dial_code": "+1",
+            "digit_count": 10,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2-9][0-9]{6}$",
-                "international_pattern": "^\\+1939[2-9][0-9]{6}$"
+                "local_pattern": "^(?:787|939)[2-9][0-9]{6}$",
+                "international_pattern": "^\\+1(?:787|939)[2-9][0-9]{6}$"
             },
             "examples": {
-                "local": "2345678",
+                "local": "9392345678",
                 "international": "+19392345678"
             }
         },
@@ -4083,7 +4106,7 @@
                 "international_pattern": "^\\+7[9][0-9]{9}$"
             },
             "examples": {
-                "local": "8912345678",
+                "local": "89123456789",
                 "international": "+79123456789"
             }
         },
@@ -4168,15 +4191,15 @@
         "name_ar": "\u0633\u0627\u0646\u062a \u0647\u064a\u0644\u064a\u0646\u0627",
         "phone": {
             "dial_code": "+290",
-            "digit_count": 4,
+            "digit_count": 5,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2-5][0-9]{3}$",
-                "international_pattern": "^\\+290[2-5][0-9]{3}$"
+                "local_pattern": "^[569][0-9]{4}$",
+                "international_pattern": "^\\+290[569][0-9]{4}$"
             },
             "examples": {
-                "local": "2123",
-                "international": "+2902123"
+                "local": "51234",
+                "international": "+29051234"
             }
         },
         "meta": {
@@ -4329,15 +4352,15 @@
         "name_ar": "\u0633\u0627\u0646 \u0645\u0627\u0631\u064a\u0646\u0648",
         "phone": {
             "dial_code": "+378",
-            "digit_count": 6,
+            "digit_count": 8,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[6][0-9]{5}$",
-                "international_pattern": "^\\+378[6][0-9]{5}$"
+                "local_pattern": "^[6][0-9]{7}$",
+                "international_pattern": "^\\+378[6][0-9]{7}$"
             },
             "examples": {
-                "local": "612345",
-                "international": "+378612345"
+                "local": "66661212",
+                "international": "+37866661212"
             }
         },
         "meta": {
@@ -4401,8 +4424,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[6][0-9]{7}$",
-                "international_pattern": "^\\+381[6][0-9]{7}$"
+                "local_pattern": "^0[6][0-9]{7,9}$",
+                "international_pattern": "^\\+381[6][0-9]{7,9}$"
             },
             "examples": {
                 "local": "0601234567",
@@ -4482,6 +4505,29 @@
             "flag_emoji": "\ud83c\uddf8\ud83c\uddec",
             "region": "Southeast Asia",
             "region_ar": "\u062c\u0646\u0648\u0628 \u0634\u0631\u0642 \u0622\u0633\u064a\u0627"
+        }
+    },
+    {
+        "code": "SX",
+        "name": "Sint Maarten",
+        "name_ar": "\u0633\u0627\u0646\u062a \u0645\u0627\u0631\u062a\u0646",
+        "phone": {
+            "dial_code": "+1721",
+            "digit_count": 7,
+            "trunk_prefix": null,
+            "validation": {
+                "local_pattern": "^[2-9][0-9]{6}$",
+                "international_pattern": "^\\+1721[2-9][0-9]{6}$"
+            },
+            "examples": {
+                "local": "5205678",
+                "international": "+17215205678"
+            }
+        },
+        "meta": {
+            "flag_emoji": "\ud83c\uddf8\ud83c\uddfd",
+            "region": "Caribbean",
+            "region_ar": "\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0643\u0627\u0631\u064a\u0628\u064a"
         }
     },
     {
@@ -4882,13 +4928,13 @@
         "phone": {
             "dial_code": "+992",
             "digit_count": 9,
-            "trunk_prefix": "8",
+            "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^8[0][0-9]{8}$",
+                "local_pattern": "^[0-9]{9}$",
                 "international_pattern": "^\\+992[0-9]{9}$"
             },
             "examples": {
-                "local": "8019123456",
+                "local": "917123456",
                 "international": "+992917123456"
             }
         },
@@ -5019,15 +5065,15 @@
         "name_ar": "\u062a\u0648\u0646\u063a\u0627",
         "phone": {
             "dial_code": "+676",
-            "digit_count": 5,
+            "digit_count": 7,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[7][0-9]{4}$",
-                "international_pattern": "^\\+676[7][0-9]{4}$"
+                "local_pattern": "^[5-9][0-9]{6}$",
+                "international_pattern": "^\\+676[5-9][0-9]{6}$"
             },
             "examples": {
-                "local": "71234",
-                "international": "+67671234"
+                "local": "7715123",
+                "international": "+6767715123"
             }
         },
         "meta": {
@@ -5095,8 +5141,8 @@
                 "international_pattern": "^\\+90[5][0-9]{9}$"
             },
             "examples": {
-                "local": "0512345678",
-                "international": "+905123456789"
+                "local": "05012345678",
+                "international": "+905012345678"
             }
         },
         "meta": {
@@ -5114,11 +5160,11 @@
             "digit_count": 8,
             "trunk_prefix": "8",
             "validation": {
-                "local_pattern": "^8[0][0-9]{7}$",
+                "local_pattern": "^8[0-9]{8}$",
                 "international_pattern": "^\\+993[0-9]{8}$"
             },
             "examples": {
-                "local": "801234567",
+                "local": "865123456",
                 "international": "+99365123456"
             }
         },
@@ -5157,15 +5203,15 @@
         "name_ar": "\u062a\u0648\u0641\u0627\u0644\u0648",
         "phone": {
             "dial_code": "+688",
-            "digit_count": 5,
+            "digit_count": 6,
             "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^[2-9][0-9]{4}$",
-                "international_pattern": "^\\+688[2-9][0-9]{4}$"
+                "local_pattern": "^[79][0-9]{5,6}$",
+                "international_pattern": "^\\+688[79][0-9]{5,6}$"
             },
             "examples": {
-                "local": "21234",
-                "international": "+68821234"
+                "local": "901234",
+                "international": "+688901234"
             }
         },
         "meta": {
@@ -5206,8 +5252,8 @@
             "digit_count": 9,
             "trunk_prefix": "0",
             "validation": {
-                "local_pattern": "^0[6-9][0-9]{8}$",
-                "international_pattern": "^\\+380[6-9][0-9]{8}$"
+                "local_pattern": "^0[3-9][0-9]{8}$",
+                "international_pattern": "^\\+380[3-9][0-9]{8}$"
             },
             "examples": {
                 "local": "0501234567",
@@ -5319,13 +5365,13 @@
         "phone": {
             "dial_code": "+998",
             "digit_count": 9,
-            "trunk_prefix": "8",
+            "trunk_prefix": null,
             "validation": {
-                "local_pattern": "^8[0][0-9]{8}$",
+                "local_pattern": "^[0-9]{9}$",
                 "international_pattern": "^\\+998[0-9]{9}$"
             },
             "examples": {
-                "local": "801234567",
+                "local": "901234567",
                 "international": "+998901234567"
             }
         },
@@ -5371,7 +5417,7 @@
                 "international_pattern": "^\\+58[4][0-9]{9}$"
             },
             "examples": {
-                "local": "0412345678",
+                "local": "04123456789",
                 "international": "+584123456789"
             }
         },
